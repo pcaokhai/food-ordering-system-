@@ -14,13 +14,10 @@ import java.util.UUID;
 public class OrderItem {
     @NotNull
     private final UUID productId;
-
     @NotNull
     private final Integer quantity;
-
     @NotNull
     private final BigDecimal price;
-
     @NotNull
     private final BigDecimal subTotal;
 }
