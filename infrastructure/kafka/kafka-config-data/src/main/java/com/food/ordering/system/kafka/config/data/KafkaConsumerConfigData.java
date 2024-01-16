@@ -1,5 +1,6 @@
 package com.food.ordering.system.kafka.config.data;
 
+
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
@@ -24,4 +25,3 @@ public class KafkaConsumerConfigData {
     private Integer maxPartitionFetchBytesDefault;
     private Integer maxPartitionFetchBytesBoostFactor;
 }
-

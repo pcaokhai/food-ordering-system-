@@ -45,4 +45,3 @@ public class KafkaProducerImpl<K extends Serializable, V extends SpecificRecordB
         }
     }
 }
-
